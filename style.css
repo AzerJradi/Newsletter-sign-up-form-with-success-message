@@ -1,0 +1,281 @@
+* {
+    background: #36384d;
+  }
+  
+  .body {
+    background: white;
+    width: 60%;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .firstImg {
+    width: 95%;
+    height: 580px;
+    background: white;
+  }
+  
+  .img {
+    background: white;
+  }
+  
+  .Part2 {
+    background: white;
+    margin-top: -100px;
+    width: 50%;
+  }
+  
+  .title {
+    background: white;
+    color: #36384d;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .someTalk {
+    background: white;
+    color: #565462;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+  }
+  
+  .bigPart {
+    background: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .check {
+    background: white;
+    width: 5%;
+    margin-right: 2.5%;
+  }
+  
+  .emailPart {
+    background: white;
+    color: #36384d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    background: white;
+    width: 80%;
+    height: 40px;
+    border: 1px #cbcbcb solid;
+    border-radius: 6px;
+    margin-top: 5px;
+    padding-left: 5%;
+  }
+  
+  .subbtn {
+    color: white;
+    background: #232742;
+    width: 86%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding-left: 5%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    top: -75px;
+    margin-left: 60%;
+  }
+  
+  #successMessage {
+    color: green;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .attribution {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #successMessage {
+    background: white;
+    border-radius: 30px;
+    width: 30%;
+    height: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #title {
+    background: transparent;
+    color: #36384d;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 15px 0;
+  }
+  
+  .LastImg {
+    background: white;
+    margin: 45px auto;
+    display: block;
+  }
+  
+  .someTalk2 {
+    background: white;
+    color: #565462;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    font-size: 18px;
+    margin: -35px auto;
+  }
+  
+  #emailDisplay {
+    background: white;
+    color: #232742;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    font-weight: bolder;
+  }
+  
+  .btn2 {
+    color: white;
+    background: #232742;
+    width: 86%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-left: 5%;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .body {
+      flex-direction: column;
+      width: 90%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .firstImg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .Part2 {
+      width: 100%;
+      margin-top: 0;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .someTalk, .someTalk2 {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .bigPart {
+      font-size: 14px;
+    }
+  
+    .check {
+      width: 10%;
+    }
+  
+    .emailPart {
+      align-items: center;
+    }
+  
+    .error {
+      top: -65px;
+      margin-left: 0;
+    }
+  
+    #successMessage {
+      width: 80%;
+      height: auto;
+      padding: 20px;
+      margin: 20px auto;
+    }
+  
+    #title {
+      font-size: 36px;
+    }
+  
+    .LastImg {
+      margin-left: 0;
+    }
+  
+    .subbtn, .btn2 {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 28px;
+    }
+  
+    .someTalk, .someTalk2 {
+      font-size: 14px;
+    }
+  
+    .bigPart {
+      font-size: 12px;
+    }
+  
+    .check {
+      width: 15%;
+    }
+  
+    .subbtn, .btn2 {
+      width: 95%;
+    }
+  
+    .error {
+      top: -55px;
+    }
+  
+    #successMessage {
+      width: 90%;
+    }
+  
+    #title {
+      font-size: 28px;
+    }
+  }
+  
